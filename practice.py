@@ -49,4 +49,4 @@ writer=csv.writer(f,delimiter=',')
 writer.writerows(new)
 
 f.close()
-
+"연습용 출력 끝"
