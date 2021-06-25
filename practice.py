@@ -41,7 +41,7 @@ for i in newPop[1:]:
     foreign=round(i[2]/(i[1]+i[2])*100,1)
     if foreign>3:
         new.append([i[0],i[1],i[2],foreign])
-    else:
+    else:g
         pass
 
 f=open('popSeoul.csv','w',newline='')
@@ -50,3 +50,4 @@ writer.writerows(new)
 
 f.close()
 "연습용 출력 끝"
+"test"
