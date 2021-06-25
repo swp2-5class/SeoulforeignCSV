@@ -50,4 +50,4 @@ writer.writerows(new)
 
 f.close()
 "연습용 출력 끝"
-"test"
+"test1"
